@@ -18,6 +18,11 @@
   margin: 10% auto;
   width: 90%;
   /* border: 1px solid blue; */
+  /* visibility: hidden; */
+}
+
+.app-content span {
+  visibility: hidden;
 }
 
 .app-content h1 {
@@ -28,7 +33,7 @@
 }
 
 .app-content h2 {
-  font-size: 65px;
+  font-size: 5vw;
   font-weight: bold;
 }
 

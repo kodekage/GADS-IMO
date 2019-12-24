@@ -1,0 +1,23 @@
+#videoComponent {
+  margin: 8em 0;
+  /* border: 2px solid #3359DF; */
+  /* background: #3359DF; */
+  color: #111111;
+  /* font-size: 18px; */
+}
+
+.video-discription {
+  /* background: #3359DF; */
+  /* color: #3359DF; */
+  border: 5px solid #111111;
+  padding: 2em;
+  margin: 3em auto;
+}
+
+.iframe{
+  /* display: block; */
+  width: 100%;
+  border: none;
+  z-index: 1;
+  /* text-align: left; */
+}

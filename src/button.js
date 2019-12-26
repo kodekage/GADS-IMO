@@ -2,11 +2,9 @@ import React from 'react';
 
 function Button(props) {
   const style = {
-    // width: '50%',
-    padding: '1em 3em',
+    padding: '.5em 2em',
     border: 'none',
     background: `${props.bg_color}`,
-    // background: 'transparent',
     fontSize: '18px',
     cursor: 'pointer',
     color: '#ffffff'

@@ -1,9 +1,18 @@
 #videoComponent {
-  margin: 8em 0;
+  padding: .5em 0;
   /* border: 2px solid #3359DF; */
-  /* background: #3359DF; */
-  color: #111111;
+  background: #000000;
+  text-align: center;
   /* font-size: 18px; */
+}
+
+#videoComponent h1{
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 70px;
+  margin-bottom: .5em;
+  /* padding: .5em 0; */
+  /* border: 1px solid white; */
 }
 
 .video-discription {

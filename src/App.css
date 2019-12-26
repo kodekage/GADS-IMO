@@ -1,39 +1,40 @@
 .App {
-  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.7)), url(./img/alc.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.7)), url(./img/alc.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: calc((85vh - 2.5vh));
-  
+  text-align: left;
 }
 
 .body {
   /* background: #3359DF; */
-  background: #111111;
+  background: #ffffff;
   padding: 3em 0;
 }
 
 .app-content {
-  margin: 10% auto;
-  width: 90%;
+  padding-top: 10%;
+  width: 70%;
   /* border: 1px solid blue; */
   /* visibility: hidden; */
 }
 
-.app-content span {
-  visibility: hidden;
-}
+/* .app-content span { */
+  /* visibility: hidden; */
+/* } */
 
 .app-content h1 {
-  font-size: 7vw;
+  font-size: 50px;
   font-weight: bold;
+  /* text-align: left; */
   /* text-shadow: 0px -60px 1px rgba(17, 0, 90, 0.9); */
   /* line-height: 150px; */
 }
 
 .app-content h2 {
-  font-size: 5vw;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -49,7 +50,7 @@ h1{
 
 h2 {
   font-size: 50px;
-  color: #FFAF30;
+  color: #111111;
   font-weight: 900;
 }
 
@@ -58,17 +59,36 @@ h2 span {
 }
 
 header{
-  /* background: linear-gradient(45deg,rgb(238, 0, 0, 1),rgba(0, 38, 255, 1), rgb(255, 208, 0, 1), rgb(81, 255, 0, 1)); */
-  padding: .3em;
-  /* position: fixed; */
+  background: #3359DF;
+  padding: .5em .3em 0;
+  position: fixed;
   width: 100%;
   z-index: 2;
-  /* border: 1px solid green; */
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 header img {
-  width: 100px;
-  height: 50px;
+  width: 60px;
+  height: 30px;
+  /* margin: 1em; */
+  /* border: 1px solid red; */
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  /* border: 1px solid red; */
+}
+
+header ul li {
+  /* border: 1px solid red; */
+  margin: 0 .5em;
+}
+
+header a {
+  color: #ffffff;
 }
 
 img {

@@ -7,7 +7,7 @@ export default function LearnersComponent() {
     background: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(${alc})`,
     backgroundPostion: 'center',
     backgroundSize: 'cover',
-    height: '500px'
+    // height: '500px'
   }
 
   return (
@@ -22,7 +22,7 @@ export default function LearnersComponent() {
         <Button link_to="view scholars" bg_color="#FFAF30" font_color="#111111"/>
       </div>
 
-      <div className="col-lg-8 order-lg-2" style={img}>
+      <div className="col-lg-8 order-lg-2 component-bg" style={img}>
 
       </div>
     </div>

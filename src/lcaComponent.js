@@ -7,7 +7,7 @@ export default function LCAComponent() {
     background: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(${alc})`,
     backgroundPostion: 'center',
     backgroundSize: 'cover',
-    height: '500px'
+    // height: '500px'
   }
 
   return (
@@ -21,8 +21,8 @@ export default function LCAComponent() {
         <Button link_to="LCA's profile" bg_color="#FFAF30" font_color="#111111"/>
       </div>  
 
-      <div className="col-lg-8" style={img}>
-      {/* <img style={img} src={alc} alt="Imo lca"/> */}
+      <div className="col-lg-8 component-bg" style={img}>
+
       </div>
     </div>
   );

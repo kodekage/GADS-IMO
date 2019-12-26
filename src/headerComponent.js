@@ -11,7 +11,7 @@ export default function HeaderComponent(props) {
         </li>
 
         <li>
-          <a href="#">LCA'S</a>
+          <a href="#">LCA's</a>
         </li>
 
         <li>

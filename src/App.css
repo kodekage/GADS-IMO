@@ -59,7 +59,7 @@ h2 span {
 }
 
 header{
-  background: rgb(113, 144, 255);
+  background: #3359DF;
   padding: 0 .3em 0;
   position: fixed;
   width: 100%;
@@ -77,10 +77,15 @@ header ul {
 }
 
 header ul li {
-  /* border: 1px solid red; */
-  /* padding-bottom: 1em; */
   margin: 1em 1em 0;
-  /* background: white; */
+}
+
+header a:hover {
+  border: 2px solid #FFAF30;
+  color: #ffffff;
+  text-decoration: none;
+  /* font-size: 15px; */
+  padding: .3em;
 }
 
 header a {

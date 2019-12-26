@@ -19,7 +19,7 @@ export default function LearnersComponent() {
           to grow techinically.
         </p>
 
-        <Button link_to="view scholars" bg_color="#FFAF30" font_color="#111111"/>
+        <Button width="60%" link_to="view scholars" bg_color="#FFAF30" font_color="#111111"/>
       </div>
 
       <div className="col-lg-8 order-lg-2 component-bg" style={img}>

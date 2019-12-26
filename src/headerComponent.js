@@ -6,17 +6,17 @@ export default function HeaderComponent(props) {
   return (
     <header>
       <ul>
-        <li>
-          <a href="#">Meetup Highlight</a>
-        </li>
+        <a href="#">
+          <li>Meetup highlight</li>
+        </a>
 
-        <li>
-          <a href="#">LCA's</a>
-        </li>
+        <a href="#">
+          <li>LCA's</li>
+        </a>
 
-        <li>
-          <a href="#">Scholars</a>
-        </li>
+        <a href="#">
+          <li>Scholars</li>
+        </a>
       </ul>
     </header>
   );

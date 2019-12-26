@@ -98,11 +98,16 @@ img {
 
 .lca-component, .learners-component {
   margin: 2em auto;
-  background: #ffffff;
-  color: #111111;
+  background: #3359DF;
+  color: #ffffff;
 }
 
 .lca-component-description, .learners-component-description {
   margin: 3em auto;
   padding: 0 2em;
+  /* border: 1px solid #ffffff; */
+}
+
+.lca-component h2, .learners-component h2 {
+  color: #FFAF30;
 }

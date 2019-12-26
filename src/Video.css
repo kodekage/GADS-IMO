@@ -1,7 +1,8 @@
 #videoComponent {
-  padding: .5em 0;
+  margin-top: 5em;
+  /* padding: .5em 0; */
   /* border: 2px solid #3359DF; */
-  background: #000000;
+  background: #ffffff;
   text-align: center;
   /* font-size: 18px; */
 }
@@ -13,26 +14,17 @@
   margin-bottom: .5em;
 }
 
-.video-discription {
-  /* background: #3359DF; */
-  /* color: #3359DF; */
-  border: 5px solid #111111;
-  padding: 2em;
-  margin: 3em auto;
-}
-
 .iframe{
-  /* display: block; */
-  width: 80%;
+  width: 79%;
   border: none;
   z-index: 1;
-  /* text-align: left; */
+  box-shadow: 15px 15px 0 rgb(117, 117, 117), -15px -15px 0 rgb(26, 26, 26);
 }
 
 @media (max-width: 768px) {
   iframe {
     width: 100%;
-    height: 300px;
+    height: 200px;
   }
 
   #videoComponent h1 {

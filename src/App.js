@@ -10,7 +10,7 @@ import './App.css';
 class App extends React.Component {
   componentDidMount(){
     sr.reveal(this.refs.box1, {delay: 2500});
-    // sr.reveal(this.refs.box2, {delay: 2500});
+    sr.reveal(this.refs.box2, {delay: 2500});
     sr.reveal(this.refs.text1, {delay: 500});
     sr.reveal(this.refs.text2, {delay: 1000});
     sr.reveal(this.refs.text3, {delay: 1500});
@@ -25,21 +25,17 @@ class App extends React.Component {
           <div className="container app-content">
             <h1><span ref="text1">Google</span> <span ref="text2">Africa</span><br/>
             <span ref="text3"> Developer</span> <span ref="text4">Scholarship</span></h1>
-            <h2 ref="box1">#ALCImo</h2>
-            {/* <Button ref="box2" link_to="meetup highlight" bg_color="#3359DF" font_color="#ffffff"/> */}
+            <h2 ref="box1">Andela Learning Community <span>IMO</span></h2>
+            <Button width="38%" link_to="meetup highlight" bg_color="#FFAF30" font_color="#111111"/>
           </div>
         </div>
-      
-        {/* <div className="container-fluid"> */}
+
           <VideoComponent/>
-        {/* </div> */}
-      
-        <div className="body">
+
           <div className="container">
             <LCAComponent/>
             <LearnersComponent/>
           </div>
-        </div>
       </div>
     );
   }

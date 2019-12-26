@@ -4,14 +4,8 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: calc((100vh - 2vh));
-  text-align: center;
-}
-
-.body {
-  /* background: #3359DF; */
-  background: #ffffff;
-  padding: 3em 0;
+  height: calc((105vh - 5vh));
+  text-align: left;
 }
 
 .app-content {
@@ -19,6 +13,7 @@
   width: 70%;
   /* border: 1px solid blue; */
   /* visibility: hidden; */
+  /* z-index: 3; */
 }
 
 /* .app-content span { */
@@ -31,11 +26,23 @@
   /* text-align: left; */
   /* text-shadow: 0px -60px 1px rgba(17, 0, 90, 0.9); */
   /* line-height: 150px; */
+  /* margin: 0; */
 }
 
 .app-content h2 {
   font-size: 50px;
   font-weight: bold;
+  background: #111111;
+  /* background: transparent; */
+  color: #FFAF30;
+  /* box-shadow: -30px -30px 0 10px rgb(255, 166, 0); */
+  padding: .2em;
+  width: 85%;
+  margin-bottom: .5em;
+}
+
+.app-content h2 span {
+  color: #ffffff;
 }
 
 div {
@@ -50,7 +57,7 @@ h1{
 
 h2 {
   font-size: 50px;
-  color: #444444;
+  color: #222222;
   font-weight: 900;
 }
 
@@ -59,7 +66,7 @@ h2 span {
 }
 
 header{
-  background: #3359DF;
+  background: rgb(75, 104, 207);
   padding: 0 .3em 0;
   position: fixed;
   width: 100%;
@@ -77,19 +84,27 @@ header ul {
 }
 
 header ul li {
-  margin: 1em 1em 0;
+  margin: 1em .5em 0;
+  padding: .4em .6em;
+  background: transparent;
 }
 
-header a:hover {
-  border: 2px solid #FFAF30;
-  color: #ffffff;
+header ul li:hover {
+  background:#FFAF30;
   text-decoration: none;
-  /* font-size: 15px; */
-  padding: .3em;
+  cursor: pointer;
+  color: #111111;
+  padding: .4em .6em;
 }
 
 header a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #111111;
 }
 
 img {
@@ -98,9 +113,10 @@ img {
 }
 
 .lca-component, .learners-component {
-  margin: 2em auto;
+  margin: 5em auto;
   background: #3359DF;
   color: #ffffff;
+  box-shadow: 20px 20px 0 rgba(255, 175, 48, 0.8);
 }
 
 .lca-component-description, .learners-component-description {
@@ -115,6 +131,7 @@ img {
 
 .component-bg {
   height: 500px;
+  /* box-shadow: 20px 20px 0 rgba(255, 175, 48, 0.7); */
 }
 
 @media (max-width: 768px) {
@@ -124,11 +141,16 @@ img {
     /* border: 1px solid red; */
   }
   .app-content h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .app-content h2 {
-    font-size: 40px;
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .app-content button {
+    width: 60%;
   }
 
   .component-bg {

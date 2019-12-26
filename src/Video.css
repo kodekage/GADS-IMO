@@ -30,3 +30,9 @@
   z-index: 1;
   /* text-align: left; */
 }
+
+@media (max-width: 768px) {
+  iframe {
+    height: 300px;
+  }
+}

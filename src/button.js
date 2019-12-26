@@ -2,12 +2,14 @@ import React from 'react';
 
 function Button(props) {
   const style = {
-    padding: '.5em 2em',
+    padding: '.8em',
+    width: `${props.width}`,
     border: 'none',
     background: `${props.bg_color}`,
-    fontSize: '18px',
+    fontSize: '20px',
     cursor: 'pointer',
-    color: `${props.font_color}`
+    color: `${props.font_color}`,
+    // border: `5px solid #FFAF30`
   }
 
   const link_style = {

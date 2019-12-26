@@ -33,7 +33,7 @@ class App extends React.Component {
             <span ref="text3"> Developer</span> <span ref="text4">Scholarship</span></h1>
             <h2 ref="box1">ALC : Imo State</h2>
             {/* <img className="mx-auto d-block" style={style} src={gads} alt="alc_logo"></img> */}
-            <Button ref="box2" link_to="meetup highlight" bg_color="#3359DF"/>
+            <Button ref="box2" link_to="meetup highlight" bg_color="#3359DF" font_color="#ffffff"/>
           </div>
         </div>
       

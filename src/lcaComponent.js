@@ -18,7 +18,7 @@ export default function LCAComponent() {
           Learning Community Ambassador's are volunteers that
           give back to the Community
         </p>
-        <Button link_to="View All" bg_color="#FFAF30"/>
+        <Button link_to="LCA's profile" bg_color="#FFAF30" font_color="#111111"/>
       </div>  
 
       <div className="col-lg-8" style={img}>

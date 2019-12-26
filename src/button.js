@@ -7,7 +7,7 @@ function Button(props) {
     background: `${props.bg_color}`,
     fontSize: '18px',
     cursor: 'pointer',
-    color: '#ffffff'
+    color: `${props.font_color}`
   }
 
   const link_style = {

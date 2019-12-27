@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="App">
-          {/* <HeadersComponent/> */}
+          <HeadersComponent/>
           <div className="container app-content">
             <h1><span ref="text1">Google</span> <span ref="text2">Africa</span><br/>
             <span ref="text3"> Developer</span> <span ref="text4">Scholarship</span></h1>

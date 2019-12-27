@@ -3,8 +3,8 @@ import React from 'react';
 function Button(props) {
   const style = {
     padding: '.5em',
-    border: 'none',
-    background: `${props.bg_color}`,
+    // border: 'none',
+    // background: `${props.bg_color}`,
     fontSize: '20px',
     cursor: 'pointer',
     color: `${props.font_color}`,

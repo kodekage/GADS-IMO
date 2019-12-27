@@ -1,9 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faVideo } from '@fortawesome/free-solid-svg-icons';
 import VideoComponent from './videoComponent';
 import LCAComponent from './lcaComponent';
 import LearnersComponent from './learnersComponent';
 import HeadersComponent from './headerComponent';
-import Button from './button';
 import sr from './ScrollReveal';
 import './App.css';
 
@@ -21,12 +22,15 @@ class App extends React.Component {
     return (
       <div>
         <div className="App">
-          <HeadersComponent/>
+          {/* <HeadersComponent/> */}
           <div className="container app-content">
             <h1><span ref="text1">Google</span> <span ref="text2">Africa</span><br/>
             <span ref="text3"> Developer</span> <span ref="text4">Scholarship</span></h1>
             <h2 ref="box1">Andela Learning Community IMO</h2>
-            <Button width="80%" link_to="meetup highlight" bg_color="#FFAF30" font_color="#111111"/>
+
+            <a href="#videoComponent">
+              <button><FontAwesomeIcon icon={faVideo} size="lg"/> Highlight</button>
+            </a>
           </div>
         </div>
 

@@ -10,6 +10,17 @@
 
 button {
   width: 40%;
+  background: #FFAF30;
+  padding: .5em;
+  font-size: 20px;
+  color: #222222;
+  cursor: pointer;
+  border: none;
+  /* text-align: left; */
+}
+
+button:hover {
+  background: rgb(255, 196, 102);
 }
 
 .app-content {
@@ -47,7 +58,7 @@ h2 span {
 header{
   background: rgb(75, 104, 207);
   padding: 0 .3em 0;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 2;
   display: flex;
@@ -109,6 +120,10 @@ img {
   margin: 3em auto;
   padding: 0 2em;
   /* border: 1px solid #ffffff; */
+}
+
+.lca-component button, .learners-component button {
+  width: 60%;
 }
 
 .lca-component h2, .learners-component h2 {

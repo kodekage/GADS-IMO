@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.7)), url(./img/alc.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)), url(./img/alc.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ button:hover {
 }
 
 .app-content {
-  padding-top: 10%;
+  padding-top: 5%;
   width: 70%;
 }
 
@@ -36,13 +36,13 @@ button:hover {
 .app-content h2 {
   font-size: 50px;
   font-weight: bold;
-  color: #333333;
+  color: #ffffff;
   padding: .2em;
   width: 85%;
 }
 
 h1{
-  color: #3359DF;
+  color: #FFAF30;
 }
 
 h2 {
@@ -56,46 +56,23 @@ h2 span {
 }
 
 header{
-  background: rgb(75, 104, 207);
-  padding: 0 .3em 0;
+  /* background: rgb(75, 104, 207); */
+  background: transparent;
+  padding: 1em;
   /* position: fixed; */
   width: 100%;
   z-index: 2;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-content: center; */
+  /* justify-content: center; */
 }
 
-header ul {
-  display: flex;
-  list-style-type: none;
-  /* border: 1px solid red; */
-  /* background: red; */
-}
-
-header ul li {
-  margin: 1em .5em 0;
-  padding: .4em .6em;
+header img {
+  width: 50px;
+  height: 50px;
   background: transparent;
-}
-
-header ul li:hover {
-  background:#FFAF30;
-  text-decoration: none;
-  cursor: pointer;
-  color: #111111;
-  padding: .4em .6em;  
-}
-
-header a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-header a:hover {
-  text-decoration: none;
-  color: #111111;
+  border-radius: 100%;
+  border: 3px solid #111111;
 }
 
 img {
@@ -136,14 +113,17 @@ img {
 }
 
 @media (max-width: 768px) {
-  button {
+  .lca-component button, .learners-component button {
     width: 80%;
+  }
+
+  .app-content button {
+    width: 70%;
   }
 
   .app-content {
     width: 100%;
-    padding-top: 30%;
-    /* border: 1px solid red; */
+    padding-top: 5%;
   }
   .app-content h1 {
     font-size: 50px;
@@ -152,10 +132,6 @@ img {
   .app-content h2 {
     font-size: 30px;
     width: 90%;
-  }
-
-  .app-content button {
-    width: 60%;
   }
 
   .component-bg {

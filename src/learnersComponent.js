@@ -7,7 +7,6 @@ export default function LearnersComponent() {
     background: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(${alc})`,
     backgroundPostion: 'center',
     backgroundSize: 'cover',
-    // height: '500px'
   }
 
   return (
@@ -15,7 +14,7 @@ export default function LearnersComponent() {
       <div className="col-lg-4 order-lg-1 align-self-center learners-component-description">
         <h2>Scholars</h2>
         <p>
-          GADS scholars in Imo state are paasionate individuals that seek
+          GADS scholars in Imo state are passionate individuals that seek
           to grow techinically.
         </p>
 

@@ -36,13 +36,13 @@ button:hover {
 .app-content h2 {
   font-size: 50px;
   font-weight: bold;
-  color: #ffffff;
+  color: #eeeeee;
   padding: .2em;
   width: 85%;
 }
 
 h1{
-  color: #FFAF30;
+  color: rgb(255, 196, 102);
 }
 
 h2 {
@@ -72,7 +72,7 @@ header img {
   height: 50px;
   background: transparent;
   border-radius: 100%;
-  border: 3px solid #333333;
+  border: 3px solid transparent;
 }
 
 img {

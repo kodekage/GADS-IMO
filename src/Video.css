@@ -26,24 +26,25 @@
 }
 
 .iframe svg {
-  border: 1px solid white;
-  padding: -.5em;
+  /* border: 1px solid white; */
+  font-size: 30px;
   text-align: right;
-  margin: 1% 0 0 90%;
+  margin: 1% 0 0 85%;
 }
 
 .iframe iframe {
   display: block;
   margin: 5% auto;
-  width: 60%;
+  width: 66%;
 }
 
 .dummyIframe {
   width: 79%;
   margin: 0 auto;
-  border: none;
+  /* border: none; */
   z-index: 1;
-  box-shadow: 15px 15px 0 rgb(117, 117, 117), -15px -15px 0 rgb(197, 197, 197);
+  border: 1pz solid red;
+  /* box-shadow: 15px 15px 0 rgb(117, 117, 117), -15px -15px 0 rgb(197, 197, 197); */
 }
 
 @media (max-width: 768px) {

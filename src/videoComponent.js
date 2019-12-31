@@ -1,4 +1,5 @@
 import React from 'react';
+import YouTube from 'react-youtube';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import playImg from './img/play-img.png';
@@ -11,7 +12,7 @@ export default class VideoComponent extends React.Component {
     }
   }
 
-  hideVideo(event) {
+  hideVideo() {
     this.setState({
       style: {
         visibility: 'hidden'
@@ -28,8 +29,18 @@ export default class VideoComponent extends React.Component {
       }
     });
   }
+
   
   render() {
+    const playerOptions = {
+      height: 532,
+      width: '70%',
+      playerVars: {
+        autoplay: 1,
+        controls: 0,
+      }
+    }
+
     return (
       <div id="videoComponent">
         <a onClick={this.showVideo.bind(this)} href="https://www.youtube.com/embed/VjzXR3K89z8">
@@ -38,10 +49,11 @@ export default class VideoComponent extends React.Component {
 
         <div className="iframe" style={this.state.style}>
           <FontAwesomeIcon icon={faTimesCircle} onClick={this.hideVideo.bind(this)} style={{cursor: 'pointer'}}/>
-          <iframe title="ALCIMO meetup highlight" width="1351" height="502" src="https://www.youtube.com/embed/VjzXR3K89z8"
-          frameborder="0" allow="accelerometer; autoplay=0; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-          </iframe>
+          {
+            this.state.style.visibility === 'visible' ? 
+            <YouTube videoId="VjzXR3K89z8" opts={playerOptions}/>
+            : null
+          }
         </div>
       </div>
     );

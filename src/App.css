@@ -120,6 +120,7 @@ img {
 
   .app-content button {
     width: 70%;
+    padding: .5em;
   }
 
   .app-content {

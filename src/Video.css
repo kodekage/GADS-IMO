@@ -19,7 +19,7 @@
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   top: 0;
   z-index: 5;
   color: #ffffff;
@@ -30,22 +30,35 @@
   font-size: 30px;
   text-align: right;
   margin: 1% 0 0 85%;
-  color: rgb(255, 48, 48);
+  color: #ffffff;
 }
 
 .iframe iframe {
   display: block;
   margin: 2% auto;
-  /* width: 66%; */
+  border: 5px solid #ffffff;
+  width: 69.4%;
 }
 
 .dummyIframe {
-  width: 79%;
+  width: 70%;
   margin: 0 auto;
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
   /* border: none; */
+  height: 100%;
   z-index: 1;
-  border: 1pz solid red;
+  /* border: 10px solid #FFAF30; */
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.9);
+}
+
+.dummyIframe:hover {
   /* box-shadow: 15px 15px 0 rgb(117, 117, 117), -15px -15px 0 rgb(197, 197, 197); */
+  /* content: "We are ALC IMO"; */
+  /* border: 10px solid #FFAF30; */
+  /* width: 75%; */
+  /* height: 100%; */
+  color: white;
+  box-shadow: none;
 }
 
 @media (max-width: 768px) {

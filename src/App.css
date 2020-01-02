@@ -25,7 +25,7 @@ button:hover {
 }
 
 .app-content {
-  padding-top: 5%;
+  padding-top: 10%;
   width: 70%;
 }
 
@@ -56,16 +56,28 @@ h2 span {
   color: #3359DF;
 }
 
-header{
-  /* background: rgb(75, 104, 207); */
-  background: transparent;
-  padding: 1em;
-  /* position: fixed; */
+header {
+  background: #333333;
+  /* background: inherit; */
+  padding: .5em 0;
+  position: fixed;
   width: 100%;
   z-index: 2;
-  /* display: flex; */
-  /* align-content: center; */
-  /* justify-content: center; */
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  margin-right: 30px;
+}
+
+header ul a, header ul a:hover{
+  display: inline-block;
+  color: #FFAF30;
+  margin: 1em .5em 0;
+  text-decoration: none;
 }
 
 header img {
@@ -74,6 +86,7 @@ header img {
   background: transparent;
   border-radius: 100%;
   border: 3px solid transparent;
+  margin: .2em .2em 0 1em;
 }
 
 img {
@@ -113,6 +126,14 @@ img {
   /* box-shadow: 20px 20px 0 rgba(255, 175, 48, 0.7); */
 }
 
+.bioFrame {
+  box-shadow: 0 3px 3px 10px rgba(0,0,0,0.9);
+}
+
+.bioFrame:hover {
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .lca-component button, .learners-component button {
     width: 80%;
@@ -125,7 +146,7 @@ img {
 
   .app-content {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 30%;
   }
   .app-content h1 {
     font-size: 50px;

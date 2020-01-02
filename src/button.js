@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Button(props) {
   const style = {
@@ -15,9 +16,9 @@ function Button(props) {
     textDecoration: 'none'
   }
   return (
-    <a style={link_style} href="#videoComponent">
+    <Link style={link_style} to={props.link}>
       <button style={style}>{props.link_to}</button>
-    </a>
+    </Link>
   )
 }
 

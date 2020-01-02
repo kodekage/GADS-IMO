@@ -41,6 +41,14 @@ export default class VideoComponent extends React.Component {
       }
     }
 
+    let youtube = null;
+
+    if (this.state.style.visibility === 'visible') {
+      youtube = (
+        <YouTube videoId="VjzXR3K89z8" opts={playerOptions}/>
+      )
+    }
+
     return (
       <div id="videoComponent">
         <a onClick={this.showVideo.bind(this)} href="https://www.youtube.com/embed/VjzXR3K89z8">
@@ -49,11 +57,7 @@ export default class VideoComponent extends React.Component {
 
         <div className="iframe" style={this.state.style}>
           <FontAwesomeIcon icon={faTimesCircle} onClick={this.hideVideo.bind(this)} style={{cursor: 'pointer'}}/>
-          {
-            this.state.style.visibility === 'visible' ? 
-            <YouTube videoId="VjzXR3K89z8" opts={playerOptions}/>
-            : null
-          }
+          { youtube }
         </div>
       </div>
     );

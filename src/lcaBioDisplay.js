@@ -13,8 +13,7 @@ export default function LcaBioDisplay(props) {
       <div className="lcaAbout">
         <h2>About</h2>
         <p>
-          Prosper opara is a fullstack software developer and community volunteer.
-          He has over 2 years experience building web applications as a freelancer.
+          {props.bio}
         </p>
       </div>
 

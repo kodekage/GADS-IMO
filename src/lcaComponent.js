@@ -15,15 +15,33 @@ export default class LcaComponent extends React.Component {
     this.counter = 0;
 
     this.lca = [
-      { img: prosper, name: 'Prosper Opara', track: 'Mobile Web Specialist'},
-      { img: faith, name: 'Toritseju Faith', track: 'Cloud'},
-      { img: fred, name: 'Johnson Awah Fred', track: 'Mobile Web Specialist'}
+      {
+        img: prosper,
+        name: 'Prosper Opara',
+        track: 'Mobile Web Specialist',
+        bio: `fullstack software developer and community volunteer.
+              He has over 2 years experience building web applications as a freelancer`
+      },
+      {
+        img: faith,
+        name: 'Toritseju Faith',
+        track: 'Cloud',
+        bio: `fullstack software developer and cloud engineer`
+      },
+        
+      {
+        img: fred,
+        name:'Johnson Awah Fred',
+        track: 'Mobile Web Specialist',
+        bio: `Remote software developer and student leader.`
+      }
     ];
 
     this.state = {
       img: this.lca[this.counter].img,
       name: this.lca[this.counter].name,
       track: this.lca[this.counter].track,
+      bio: this.lca[this.counter].bio
     }
   }
 
@@ -37,7 +55,8 @@ export default class LcaComponent extends React.Component {
     this.setState({
       img: this.lca[this.counter].img,
       name: this.lca[this.counter].name,
-      track: this.lca[this.counter].track
+      track: this.lca[this.counter].track,
+      bio: this.lca[this.counter].bio
     })
   }
 
@@ -51,7 +70,8 @@ export default class LcaComponent extends React.Component {
     this.setState({
       img: this.lca[this.counter].img,
       name: this.lca[this.counter].name,
-      track: this.lca[this.counter].track
+      track: this.lca[this.counter].track,
+      bio: this.lca[this.counter].bio
     })
   }
 
@@ -67,7 +87,7 @@ export default class LcaComponent extends React.Component {
             </div>
 
             <div className="col-lg-7" style={{background: '#111'}}>
-              <LcaBioDisplay name={this.state.name} track={this.state.track}/>
+              <LcaBioDisplay name={this.state.name} track={this.state.track} bio={this.state.bio}/>
             </div>
           </div>
         </div>

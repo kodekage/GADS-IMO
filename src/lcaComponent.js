@@ -1,28 +1,77 @@
 import React from 'react';
-import Button from './button';
-import alc from './img/lca.jpg';
+import HeadersComponent from './headerComponent';
+import LcaBioDisplay from './lcaBioDisplay';
+import LcaAvatar from './lcaAvatar';
+// import LcaProfile from './lcaProfileComponent';
+import prosper from './img/prosper.jpg';
+import fred from './img/fred.jpg';
+import faith from './img/faith.jpg';
+import './lcaProfile.css';
 
-export default function LCAComponent() {
-  const img = {
-    background: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(${alc})`,
-    backgroundPostion: 'center',
-    backgroundSize: 'cover',
+export default class LcaComponent extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.counter = 0;
+
+    this.lca = [
+      { img: prosper, name: 'Prosper Opara', track: 'Mobile Web Specialist'},
+      { img: faith, name: 'Toritseju Faith', track: 'Cloud'},
+      { img: fred, name: 'Johnson Awah Fred', track: 'Mobile Web Specialist'}
+    ];
+
+    this.state = {
+      img: this.lca[this.counter].img,
+      name: this.lca[this.counter].name,
+      track: this.lca[this.counter].track,
+    }
   }
 
-  return (
-    <div className="row lca-component">
-      <div className="col-lg-4 align-self-center lca-component-description">
-        <h2>LCA's</h2>
-        <p>
-          Learning Community Ambassador's are volunteers that
-          give back to the Community
-        </p>
-        <Button width="60%" link_to="LCA's profile" bg_color="#FFAF30" font_color="#111111"/>
-      </div>  
+  nextLca = () => {
+    this.counter += 1;
 
-      <div className="col-lg-8 component-bg" style={img}>
+    if (this.counter > 2) {
+      this.counter = 2
+    }
 
+    this.setState({
+      img: this.lca[this.counter].img,
+      name: this.lca[this.counter].name,
+      track: this.lca[this.counter].track
+    })
+  }
+
+  previousLca = () => {
+    this.counter -= 1;
+
+    if (this.counter < 0) {
+      this.counter = 0
+    }
+
+    this.setState({
+      img: this.lca[this.counter].img,
+      name: this.lca[this.counter].name,
+      track: this.lca[this.counter].track
+    })
+  }
+
+  render() {
+    return (
+      <div style={{background: '#222'}}>
+        <HeadersComponent/>
+
+        <div className="lca">
+          <div className="row no-gutters">
+            <div className="col-lg">
+             <LcaAvatar img={this.state.img} nextlca={this.nextLca} previouslca={this.previousLca}/>
+            </div>
+
+            <div className="col-lg-7" style={{background: '#111'}}>
+              <LcaBioDisplay name={this.state.name} track={this.state.track}/>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  );
+    )
+  }
 }

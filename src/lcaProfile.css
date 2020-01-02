@@ -1,0 +1,87 @@
+.lca {
+  height: 100vh;
+  border-left: 0px solid #fff;
+  border-right: 0px solid #fff;
+  margin: auto
+}
+
+.icon {
+  color: #FFAF30;
+  margin: 1em;
+  cursor: pointer;
+  font-size: 60px;
+}
+
+.socialIcon {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 0 .2em;
+}
+
+.lcaAvatar {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 90% 0 0;
+  border-right: 10px solid #333;
+}
+
+.lcaBio {
+  padding: 3em;
+  color: #ffffff;
+}
+
+.lcaAbout {
+  margin-top: 5%;
+}
+
+.lcaAbout p {
+  font-size: 18px;
+}
+
+.lcaBio h1 {
+  color: #FFAF30;
+  margin-top: 10%;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.lcaBio h2 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #FFAF30;
+  width: 40%;
+  z-index: 3;
+}
+
+.social {
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  .lcaBio {
+    padding: 1em;
+  }
+
+  .icon {
+    margin: .5em;
+  }
+
+  .lcaBio h1 {
+    font-size: 40px;
+    margin-top: 2%;
+  }
+
+  .lcaBio h3 {
+    font-size: 30px;
+  }
+
+  .lcaAvatar {
+    height: 60vh;
+    margin-top: 10%;
+    padding: 65% 0 0;
+    border: 0;
+    border-bottom: 10px solid #333;
+  }
+}

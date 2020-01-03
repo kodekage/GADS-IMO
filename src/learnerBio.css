@@ -1,0 +1,81 @@
+.learnersComponent {
+  text-align: center;
+}
+
+.learnersComponent .container {
+  /* border: 1px solid red; */
+}
+
+.learnersComponent h2 {
+  padding-top: 10%;
+}
+
+.tracks {
+  /* border: 1px solid red; */
+}
+.tracks div {
+  background: #FFAF30;
+  margin: .5em;
+  /* height: 100px; */
+  /* border: 2px solid #333; */
+  border-radius: 10px;
+  cursor: pointer;
+  /* padding: .3em; */
+}
+.tracks button {
+  font-size: 18px;
+  /* border: 1px solid red; */
+  width: 100%;
+  /* margin: 0 auto; */
+  /* padding: .5em; */
+}
+
+.learnersList {
+  margin-top: 5%;
+}
+
+.learnerBio {
+  /* border: 1px solid red; */
+  text-align: center;
+  /* width: 20%; */
+  margin: 3% .4em 0;
+}
+
+.briefBio {
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 3em .5em;
+  margin: auto;
+  /* border: 1px solid red; */
+  z-index: 5;
+}
+
+.briefBio .item {
+  background: #FFAF30;
+  width: 30%;
+  padding: 5%;
+  margin: 10% auto 0;
+}
+
+.learnerBio img {
+  width: 180px;
+  height: 180px;
+  border: 2px solid #333;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.learnerBio img:hover {
+  border: 5px solid #FFAF30;
+}
+
+@media (max-width: 768px) {
+  .briefBio .item {
+    width: 95%;
+  }
+}

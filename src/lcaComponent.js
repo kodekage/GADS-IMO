@@ -52,9 +52,9 @@ export default class LcaComponent extends React.Component {
         name:'Melody Amaizu',
         track: 'Associate Android Developer',
         bio: `Remote software developer and student leader.`,
-        // linkedin: 'https://linkedin.com/in/oladokun-oluwasegun',
-        // github: 'https://github.com/shegsbass',
-        // twitter: 'https://twitter.com/oladokun_shegs'
+        linkedin: 'https://linkedin.com/in/amaizu-melody-6ab91b12a',
+        github: 'https://github.com/lattaz',
+        twitter: 'https://twitter.com/iamLattaz'
       },
       {
         img: shegs,

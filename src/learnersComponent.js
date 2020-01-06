@@ -71,6 +71,11 @@ export default class LearnersComponent extends React.Component {
         <div className="container">
           <h2>ALC IMO LEARNERS</h2>
 
+          {/* <p>  */}
+            {/* ALC Imo learners are individuals passionate about learning about the latest technologies */}
+            {/*  */}
+          {/* </p> */}
+
           {/* <div className="row no-gutters align-items-center justify-content-center tracks"> */}
             {/* <div className="col-lg-4"> */}
               {/* <button>Mobile Web Specialist</button> */}

@@ -39,7 +39,7 @@ export default class LearnersComponent extends React.Component {
       <div className="learnersComponent">
         <HeadersComponent/>
         <div className="container">
-          <h2>ALC IM0 LEARNERS</h2>
+          <h2>ALC IMO LEARNERS</h2>
 
           <div className="row no-gutters align-items-center justify-content-center tracks">
             <div className="col-lg-4">

@@ -12,10 +12,13 @@ export default function LearnerBio(props) {
       cursor: 'pointer'
     }
   }
+
   return (
     <div className="col-xs-1 col-sm-4 col-md-4 col-lg-2 learnerBio">
-      <img src={scholar} alt="AlC Imo scholar" onClick={props.showBio}/>
-
+      <div>
+        <img src={scholar} alt="AlC Imo scholar" onClick={props.showBio}/>
+      </div>
+      
       <div className="briefBio" style={props.show}>
         <div className="item">
           <FontAwesomeIcon style={style.icon} icon={faTimesCircle} onClick={props.hideBio}/>

@@ -1,5 +1,6 @@
 .learnersComponent {
   text-align: center;
+  /* border: 1px solid red; */
 }
 
 .learnersComponent .container {
@@ -30,43 +31,81 @@
   /* padding: .5em; */
 }
 
+.breadcrump {
+  text-align: left;
+  /* border: 1px solid rgba(0, 0, 0, 0.1); */
+  margin-left: 11%;
+  color: blue;
+}
+
 .learnersList {
   margin-top: 5%;
+  /* border: 1px solid red; */
 }
 
 .learnerBio {
-  /* border: 1px solid red; */
+  border: 1px solid rgba(3, 3, 3, 0.3);
   text-align: center;
-  /* width: 20%; */
-  margin: 3% .4em 0;
+  height: 300px;
+  margin: 1em .4em;
+  padding: .5em 0;
+}
+
+.learnerBio div:nth-child(1) {
+  /* border: 1px solid red; */
+  padding: 2% 5%;
+}
+
+.learnerBio span {
+  display: block;
+  width: 30%;
+  margin: 3% auto 0;
+  cursor: pointer;
+  color: #FFAF30;
+  font-weight: 900;
 }
 
 .briefBio {
-  background: rgba(0, 0, 0, 0.1);
-  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
-  padding: 3em .5em;
-  margin: auto;
+  /* padding: 3em .5em;s */
+  margin-bottom: 1em;
   /* border: 1px solid red; */
   z-index: 5;
 }
 
 .briefBio .item {
-  background: #FFAF30;
-  width: 30%;
-  padding: 5%;
+  background: #ffffff;
+  width: 50%;
+  text-align: left;
+  padding: 2em;
   margin: 10% auto 0;
 }
 
-.learnerBio img {
+.briefBio p {
+  color: #444444;
+}
+
+.learnerBio img{
   width: 100px;
   height: 100px;
   /* border: 1px solid #333; */
   margin: 0 auto;
   border-radius: 100%;
+  cursor: pointer;
+  /* box-shadow: -3px 3px 0 0 rgba(3, 3, 3, 0.5); */
+}
+
+.briefBio img {
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid #333; */
+  margin: .5em 0;
+  /* border-radius: 100%; */
   cursor: pointer;
   /* box-shadow: -3px 3px 0 0 rgba(3, 3, 3, 0.5); */
 }

@@ -56,7 +56,12 @@
 }
 
 .social {
-  margin-top: 10%;
+  margin-top: 5%;
+}
+
+.social h3 {
+  font-weight: 600;
+  color: #FFAF30;
 }
 
 @media (max-width: 768px) {

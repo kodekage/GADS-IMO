@@ -20,8 +20,13 @@ export default class LcaComponent extends React.Component {
         img: prosper,
         name: 'Prosper Opara',
         track: 'Mobile Web Specialist',
-        bio: `fullstack software developer and community volunteer.
-              He has over 2 years experience building web applications as a freelancer`,
+        bio: `With over 2+ years experience building web applications and developer community volunteering (GitHub Education & Facebook Developer Circles), serving as community lead for
+              the 4th round of the Google Africa Developer Scholarship(GADS) in IMO was my way of giving back to the ALC being an ALC2.0 scholar myself.
+              Connecting with the learners was easy because I had been in their shoes too and also a learning experience as the scholars were always
+              armed with questions i had to dig deeper to be able to answer.
+              I anticipate all that the folks in the Mobile Web Specialist Track build in the future and a successful career as
+              technologist.
+              `,
         linkedin: 'https://www.linkedin.com/in/prosper-opara/',
         github: 'https://github.com/OPARA-PROSPER',
         twitter: 'https://twitter.com/kodekage'
@@ -29,11 +34,12 @@ export default class LcaComponent extends React.Component {
       {
         img: faith,
         name: 'Toritseju Faith',
-        track: 'Cloud',
-        bio: `Recent computer science graduate, software engineer with an affinity for good systems design.
-              Looking to work on real life projects solving real life problems. Faith is most versed in writing
-              API's and engineering backend systems. He likes playing the keyboard, mobile games or table tennis
-              abd habging out with friends when he is not coding`,
+        track: 'Associate Cloud Engineer',
+        bio: `I'm a computer science graduate and a software engineer with an affinity for good systems design.
+              Handling the Associate Cloud Engineering Track was an amazing experince for me being an AWS user,
+              the GCP experience was worth it personally and I'm glad i could share my cloud experince with the scholars
+              in Imo. Being an ALC2.0 participant I feel that the having a Cloud track is a game changer for the
+              community`,
         linkedin: 'https://linkedin.com/in/toritsejuFO',
         github: 'https://github.com/toritsejuFO',
         twitter: 'https://twitter.com/toritsejuFO'
@@ -42,7 +48,9 @@ export default class LcaComponent extends React.Component {
         img: fred,
         name:'Johnson Fred Awah',
         track: 'Mobile Web Specialist',
-        bio: `Codename, CODEMON. He is a software engineer, majors in backend technologies and API's and JS fanboy`,
+        bio: `My codename is codemon, i'm a software engineer and major in building backend technologies and API's
+              using the JavaScript language. GADS4.0 turnout was amzing and I really loved the scholars inqusitive
+              attitude (always asking questions) and discovering some learners were quite ahead with their learning`,
         linkedin: 'https://linkedin.com/in/alfred-johnson-awah',
         github: 'https://github.com/CeoFred',
         twitter: 'https://twitter.com/codemon_'
@@ -51,7 +59,12 @@ export default class LcaComponent extends React.Component {
         img: melody,
         name:'Melody Amaizu',
         track: 'Associate Android Developer',
-        bio: `Remote software developer and student leader.`,
+        bio: `I'm Amaizu Melody, a Nigerian serial Internet entrepreneur,Software developer, Starthub Fellow 2019,
+              winner of the Hackvote Hackathon 2018, Ambassador Coordinator Zumarco Ventures,Ingressive Campus 
+              Ambassador, ALCwithGoogle mentor, Github Student Developer, Internshala student partner, ALCwithGoogle
+              Certificate Holder, Google Africa Digital Skill Certificate holder, Network Associate Certificate Holder,
+              Soft skill Certificate Holder, Runner-up at Testathon Nigeria 2019. Voluteering for the GADS 4.0 was an 
+              amazing experience for me and i'm glad i was part of the scholars learning journey this time`,
         linkedin: 'https://linkedin.com/in/amaizu-melody-6ab91b12a',
         github: 'https://github.com/lattaz',
         twitter: 'https://twitter.com/iamLattaz'
@@ -60,8 +73,12 @@ export default class LcaComponent extends React.Component {
         img: shegs,
         name:'Oladokun Oluwaswgun',
         track: 'Associate Android Developer',
-        bio: `Oluwasegun has proficency and competence in android development, web development, UI/UX design, social
-              media marketing, project management and has a good presentation skill`,
+        bio: `Volunteering for the GADS 4.0 in IMO was informed by my proficency in android development and
+              desire to give back to the Android community in Imo. Coding for me is a way of life, as i can
+              easily bring to life ideas in my head to reality by writing some lines of code and Google, Andela
+              and Plurasight made learning how to code possible for us in Imo and thats really awesome. I look
+              foward to more of this.
+              `,
         linkedin: 'https://linkedin.com/in/oladokun-oluwasegun',
         github: 'https://github.com/shegsbass',
         twitter: 'https://twitter.com/oladokun_shegs'
@@ -83,7 +100,7 @@ export default class LcaComponent extends React.Component {
     this.counter += 1;
 
     if (this.counter > 4) {
-      this.counter = 4
+      this.counter = 0
     }
 
     this.setState({
@@ -101,7 +118,7 @@ export default class LcaComponent extends React.Component {
     this.counter -= 1;
 
     if (this.counter < 0) {
-      this.counter = 0
+      this.counter = 4
     }
 
     this.setState({

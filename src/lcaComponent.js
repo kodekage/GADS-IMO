@@ -23,7 +23,7 @@ export default class LcaComponent extends React.Component {
         bio: `With over 2+ years experience building web applications and developer community volunteering (GitHub Education & Facebook Developer Circles), serving as community lead for
               the 4th round of the Google Africa Developer Scholarship(GADS) in IMO was my way of giving back to the ALC being an ALC2.0 scholar myself.
               Connecting with the learners was easy because I had been in their shoes too and also a learning experience as the scholars were always
-              armed with questions i had to dig deeper to be able to answer.
+              armed with some questions I had to dig deeper to be able to answer.
               I anticipate all that the folks in the Mobile Web Specialist Track build in the future and a successful career as
               technologist.
               `,
@@ -36,8 +36,8 @@ export default class LcaComponent extends React.Component {
         name: 'Toritseju Faith',
         track: 'Associate Cloud Engineer',
         bio: `I'm a computer science graduate and a software engineer with an affinity for good systems design.
-              Handling the Associate Cloud Engineering Track was an amazing experince for me being an AWS user,
-              the GCP experience was worth it personally and I'm glad i could share my cloud experince with the scholars
+              Handling the Associate Cloud Engineering Track was an amazing experince for me, being an AWS user
+              the GCP experience was worth it personally and I'm glad I could share my cloud experince with the scholars
               in Imo. Being an ALC2.0 participant I feel that the having a Cloud track is a game changer for the
               community`,
         linkedin: 'https://linkedin.com/in/toritsejuFO',
@@ -49,7 +49,7 @@ export default class LcaComponent extends React.Component {
         name:'Johnson Fred Awah',
         track: 'Mobile Web Specialist',
         bio: `My codename is codemon, i'm a software engineer and major in building backend technologies and API's
-              using the JavaScript language. GADS4.0 turnout was amzing and I really loved the scholars inqusitive
+              using the JavaScript language. GADS4.0 turnout was amazing and I really loved the scholars inqusitive
               attitude (always asking questions) and discovering some learners were quite ahead with their learning`,
         linkedin: 'https://linkedin.com/in/alfred-johnson-awah',
         github: 'https://github.com/CeoFred',
@@ -74,9 +74,9 @@ export default class LcaComponent extends React.Component {
         name:'Oladokun Oluwaswgun',
         track: 'Associate Android Developer',
         bio: `Volunteering for the GADS 4.0 in IMO was informed by my proficency in android development and
-              desire to give back to the Android community in Imo. Coding for me is a way of life, as i can
-              easily bring to life ideas in my head to reality by writing some lines of code and Google, Andela
-              and Plurasight made learning how to code possible for us in Imo and thats really awesome. I look
+              desire to give back to the Android community in Imo. Coding for me is a way of life as I can
+              easily bring to life ideas in my head to reality by writing some lines of code. Google, Andela
+              and Plurasight made learning how to code possible for us in Imo and thats really awesome, look
               foward to more of this.
               `,
         linkedin: 'https://linkedin.com/in/oladokun-oluwasegun',

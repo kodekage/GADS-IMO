@@ -53,7 +53,7 @@ export default class LearnerBio extends React.Component {
             <img src={this.props.img} alt="AlC Imo scholar"/>
             <div>
               <h3 style={{fontSize: '25px', fontWeight: '600'}}>{this.props.name}</h3>
-              <p style={style.p}>{this.props.track} track</p>
+              <p style={style.p}>{this.props.track} Track</p>
               <a style={style.a} href={this.props.github}><FontAwesomeIcon icon={faGithub} style={{fontSize: '30px'}}/></a>
               <span onClick={this.showBio.bind(this)}>MORE +</span>
             </div>
@@ -64,7 +64,7 @@ export default class LearnerBio extends React.Component {
           <div className="item">
             <FontAwesomeIcon style={style.icon} icon={faTimesCircle} onClick={this.hideBio.bind(this)}/>
             <h3 style={{fontSize: '25px', fontWeight: '600'}}>{this.props.name}</h3>
-            <p style={style.p}>{this.props.track} track</p>
+            <p style={style.p}>{this.props.track} Track</p>
             <div className="row">
               <div className="col-lg-4">
                 <img src={this.props.img} alt="AlC Imo scholar"/>

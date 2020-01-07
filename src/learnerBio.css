@@ -46,7 +46,7 @@
 .learnerBio {
   border: 1px solid rgba(3, 3, 3, 0.3);
   text-align: center;
-  height: 300px;
+  height: 320px;
   margin: 1em .4em;
   padding: .5em 0;
 }
@@ -80,11 +80,18 @@
 
 .briefBio .item {
   background: #ffffff;
-  width: 50%;
+  width: 60%;
   text-align: left;
-  padding: 2em;
-  margin: 10% auto 0;
+  padding: 2em 3em;
+  margin: 5% auto 0;
+  overflow-y: scroll;
+  height: 500px;
 }
+
+/* .learnerAbout { */
+  /* overflow-y: scroll; */
+  /* height: 200px; */
+/* } */
 
 .briefBio p {
   color: #444444;
@@ -117,6 +124,8 @@
 @media (max-width: 768px) {
   .briefBio .item {
     width: 95%;
+    height: 400px;
+    overflow-y: scroll;
   }
 
   .learnersComponent h2 {

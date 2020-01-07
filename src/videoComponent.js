@@ -1,5 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import sr from './ScrollReveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import gads_thumbnail from './img/gads_thumbnail.png';
@@ -30,6 +31,10 @@ export default class VideoComponent extends React.Component {
     });
   }
 
+  componentDidMount(){
+    sr.reveal(this.refs.box1, { easing: 'cubic-bezier(0.5, 0, 0, 1)' });
+  };
+
   
   render() {
     const playerOptions = {
@@ -50,7 +55,7 @@ export default class VideoComponent extends React.Component {
     }
 
     return (
-      <div id="videoComponent">
+      <div id="videoComponent" ref="box1">
         <a onClick={this.showVideo.bind(this)} href="https://www.youtube.com/embed/VjzXR3K89z8">
           <img className="dummyIframe" src={gads_thumbnail} alt="Play button"/>
         </a>

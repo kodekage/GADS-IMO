@@ -6,6 +6,9 @@ import LcaCardComponent from './lcaCardComponent';
 import LearnersCardComponent from './learnersCardComponent';
 import HeadersComponent from './headerComponent';
 import sr from './ScrollReveal';
+import pluralsight from './img/pluralsite.png';
+import gwg from './img/growwithggogle.png';
+import andela from './img/andela.png';
 import './App.css';
 
 class HomeComponent extends React.Component {
@@ -32,7 +35,35 @@ class HomeComponent extends React.Component {
             </a>
           </div>
         </div>
+        
+        <div className="row no-gutters justify-content-center metrics">
+          <div className="col-lg-2">
+            <h2>60+</h2>
+            <p>Scholars</p>
+          </div>
+
+          <div className="col-lg-2">
+            <h2>5</h2>
+            <p>LCA's</p>
+          </div>
+
+          <div className="col-lg-2">
+            <h2>1</h2>
+            <p>Goal</p>
+          </div>
+        </div>
+
         <VideoComponent/>
+
+        <div className="container text-center sponsors">
+          <h2>Sponsors</h2>
+          <div className="row no-gutters align-items-center justify-content-center">
+            <img className="col-lg-3" src={gwg} alt="google logo"/>
+            <img className="col-lg-3" src={andela} alt="google logo"/>
+            <img className="col-lg-3" src={pluralsight} alt="google logo"/>
+          </div>
+        </div>
+
         <div className="body">
           <div className="container">
             <LcaCardComponent/>

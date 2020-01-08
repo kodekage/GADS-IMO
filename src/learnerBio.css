@@ -83,7 +83,7 @@
   width: 60%;
   text-align: left;
   padding: 2em 3em;
-  margin: 5% auto 0;
+  margin: 8% auto 0;
   overflow-y: scroll;
   height: 500px;
 }
@@ -126,9 +126,11 @@
     width: 95%;
     height: 400px;
     overflow-y: scroll;
+    margin-top: 12%;
   }
 
   .learnersComponent h2 {
     padding-top: 30%;
+    font-size: 30px;
   }
 }

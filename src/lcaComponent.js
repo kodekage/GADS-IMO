@@ -49,8 +49,8 @@ export default class LcaComponent extends React.Component {
         name:'Johnson Fred Awah',
         track: 'Mobile Web Specialist',
         bio: `My codename is codemon, i'm a software engineer and major in building backend technologies and API's
-              using the JavaScript language. GADS4.0 turnout was amazing and I really loved the scholars inqusitive
-              attitude (always asking questions) and discovering some learners were quite ahead with their learning`,
+              using the JavaScript language. GADS4.0 turnout was amazing, I loved the scholars inqusitive
+              attitude (always asking questions) and that some were quite ahead in their learning`,
         linkedin: 'https://linkedin.com/in/alfred-johnson-awah',
         github: 'https://github.com/CeoFred',
         twitter: 'https://twitter.com/codemon_'

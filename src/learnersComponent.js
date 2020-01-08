@@ -56,13 +56,6 @@ export default class LearnersComponent extends React.Component {
         github: 'https://github.com/uzukwujp'
       },
       {
-        name: 'Onuohb Godfirst Chibuzo',
-        img: 'https://avatars0.githubusercontent.com/u/52785343?s=460&v=4',
-        bio: `I'm proficient in Mobile Development`,
-        track: 'Associate Android Developer',
-        github: 'https://www.github.com/chibufirst'
-      },
-      {
         name: 'Alex Favour Chukwuebuka',
         img: 'https://avatars2.githubusercontent.com/u/52333077?s=400&v=4',
         bio: `I'm Alex favour, a student and frontend developer. Through the
@@ -179,15 +172,67 @@ export default class LearnersComponent extends React.Component {
       {
         name: 'Onuoha Chukwuemeka Charles',
         img: 'https://avatars1.githubusercontent.com/u/52838613?s=400&v=4',
-        bio: `Chukwuemeka is a graduate of Electrical and Electionic Engineering with interest is embedded
-              systems, Telecommunications and System Security. A tech and cybersecurity blogger with
-              7to5post.com. He is a finalist in the 2019 edition of Google Affrica Developer Scholarship
-              where he trained as an Android Developer. He is currently pursuing more programming skills
-              with C++ and Java. He also holds certificate of completion of Cisco's Cyber Security Essentials
-              course. He hope you use his wealth of knowledge to create jobs not just for himself but for those
-              who share the same spirit with him. `,
+        bio: `My story is that of "Zero to Hero".Prior to the GADS program, the means of coverting coding
+              knowledge you functional software was abstract to me. I was a complete Java and Android novice
+              prior to May 2019 when that program kicked off. But I can proudly say today that I have a very
+              functional and productive Android App to my credit. 
+              My dream is to become an IoT professional, developing smart devices powered by Android. I am very
+              optimistic that I will be certified as an Associate Android Developer by Google having made it to
+              the certification stage. `,
         track: 'Associate Android Developer',
         github: 'https://github.com/Charlyco'
+      },
+      {
+        name: 'Ezinwa Abangaha',
+        img: 'https://avatars2.githubusercontent.com/u/51915683?s=460&v=4',
+        bio: `I'm an aspiring front-end developer, I also have  interests in python development. I love learning
+              new technologies and getting better at it.  Through the Google Developer Scholarship, I learnt a
+              whole lot about CSS, JavaScript, jQuery. I'm really excited about creating and designing web apps. `,
+        track: 'Mobile Web Specialist',
+        github: 'https://github.com/ezinwa-abangaha'
+      },
+      {
+        name: 'Uzomachi Nkwocha',
+        img: 'https://avatars3.githubusercontent.com/u/52314977?s=400&v=4',
+        bio: `A front-end web developer and a graduate of Public Health Parasitology and Entomology. Been a
+              graduate of Public Health, I have dreamt of creating innovations in the health field and ALC
+              gave me the opportunity to do so. Prior to ALC, I knew nothing about web designing but now, I
+              can confidently build a website. I intend going further to be a full stack and cloud engineer.`,
+        track: 'Mobile Web Specialist',
+        github: 'https://github.com/uzorcode'
+      },
+      {
+        name: 'Gospel Chinyereugo',
+        img: 'https://avatars0.githubusercontent.com/u/51026002?s=400&v=4',
+        bio: `I'm Gospel Chinyereugo, a front-end developer. I build solutions for the web. 
+              The Google Africa Developer Scholarship was an awesome opportunity for me to build a career in tech. 
+              Being new to Angular and Nodejs (I only had prior knowledge of HTML, CSS and vanilla JavaScript), I
+              was able to get a hold of a whole lot of concepts behind these technologies (Angular and Node) while
+              learning how frameworks as a general term works courtesy of the program. 
+              Also, at some point, I was faced with the challenge of really being able to use Git/Github well enough.
+              Thanks to the well-versed instructors (on Pluralsight), I was able to fully understand the concepts of
+              Git/Github and version control in general. 
+              I want to say a very big thank you to Google, Andela and Pluralsight for this great opportunity to
+              build up my career in tech despite starting out as a freshman in tech.
+              These past few months have really been rewarding and a time well spent investing in my future.
+              Thanks once again. 
+              `,
+        track: 'Mobile Web Specialist',
+        github: 'https://github.com/Ebugo'
+      },
+      {
+        name: 'Onuoha Godfirst Chibuzo',
+        img: 'https://avatars0.githubusercontent.com/u/52785343?s=460&v=4',
+        bio: `Honestly, I thought I was doing well with my Java programming until ALC 4.0 brought me out by means of
+              meetups and providing materials to learn Android Development.
+              Through this program, I was able to develop my first full functional Fashion App and I really learnt a
+              lot of things I could with Java for Android Development. Also, the project (CandyApp Project) they gave
+              us helped me to understand the concept of Git and Github and how to use them effectively.
+              The Scholarship for me was a great one and it had a great impact in my career journey and in tech 
+              ecosystem.
+              `,
+        track: 'Associate Android Developer',
+        github: 'https://github.com/ChibuFirst'
       },
     ]
   }

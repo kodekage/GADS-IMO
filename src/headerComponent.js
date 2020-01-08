@@ -15,7 +15,7 @@ export default function HeaderComponent(props) {
         </Link>
 
         <Link to="/scholars">
-          <li>Learners</li>
+          <li>Scholars</li>
         </Link>
       </ul>
     </header>

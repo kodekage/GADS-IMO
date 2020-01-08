@@ -71,7 +71,7 @@ export default class LcaComponent extends React.Component {
       },
       {
         img: shegs,
-        name:'Oladokun Oluwaswgun',
+        name:'Oladokun Oluwasegun',
         track: 'Associate Android Developer',
         bio: `Volunteering for the GADS 4.0 in IMO was informed by my proficency in android development and
               desire to give back to the Android community in Imo. Coding for me is a way of life as I can

@@ -1,7 +1,8 @@
 #videoComponent {
-  margin-top: 5em;
-  background: #ffffff;
+  /* margin-top: 5em; */
+  /* background: #ffffff; */
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 #videoComponent h1 {

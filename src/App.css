@@ -134,6 +134,50 @@ img {
   width: 50%;
 }
 
+.metrics {
+  text-align: center;
+  margin-bottom: 5%;
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('./img/world.jpg');
+  background-position: center;
+  background-size: contain;
+  /* border: 1px solid red; */
+  padding: 5% 0;
+  /* margin-bottom: 10%; */
+  /* z-index: 10; */
+}
+
+.metrics h2 {
+  /* font-size: 30px; */
+  /* margin: 0; */
+  color: #FFAF30;
+}
+
+.metrics p {
+  line-height: 0;
+  font-size: 20px;
+}
+
+.metrics span {
+  color: #FFAF30;
+  font-size: 60px;
+}
+
+.sponsors img {
+  width: 100%;
+  height: 100%;
+  /* display: block; */
+}
+
+.sponsors h2 {
+  color: #FFAF30;
+}
+
+.sponsors {
+  /* border: 1px solid red; */
+  margin-top: 3%;
+}
+
 @media (max-width: 768px) {
   .lca-component button, .learners-component button {
     width: 80%;
@@ -159,5 +203,12 @@ img {
 
   .component-bg {
     height: 300px;
+  }
+
+  .sponsors img {
+    width: 80%;
+    height: 50%;
+    /* margin-top: 1em; */
+    /* border: 1px solid red; */
   }
 }

@@ -16,7 +16,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "react-youtube": "^7.9.0",
-    "scrollreveal": "^4.0.5"
+    "scrollreveal": "^4.0.5",
+    "smooth-scroll": "^16.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

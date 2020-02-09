@@ -234,6 +234,26 @@ export default class LearnersComponent extends React.Component {
         track: 'Associate Android Developer',
         github: 'https://github.com/ChibuFirst'
       },
+      {
+        name: 'Egenuka Wisdom',
+        img: 'https://avatars3.githubusercontent.com/u/23256162?s=400&v=4',
+        bio: `After being less productive as a web developer for few years, the Google Africa Developer Scholarship with
+              ALC4.0 has not only opened me up to the world of nodejs where I could use javascript for both frontend and
+              backend, but also made available professional training resources that transformed me (from scratch) to a
+              proficient full stack mobile web developer. I now develop with Mobile-Responsiveness and Application Security
+              Implementation in mind.
+              Now I can publish npm packages to npmjs.com for my re-use in my usual kind of projects, use the powerful
+              component-based frontend framework - angular for web projects, build rest APIs that can be consumed by /
+              on any platform and make pretty contributions to open source projects. The knowledge of version management
+              and team organization on a central repository got from Git and Github related trainings during the course made
+              the later possible.
+              I am more passionate about a couple of things now than ever viz:  my long-time vision of being a full stack 
+              developer, publishing meaningful npm solutions to npmjs.com for use in any nodejs web project. 
+              I am as well hoping to release the links to few enterprise projects to the world soon.
+              `,
+        track: 'Mobile Web Specialist',
+        github: 'https://github.com/wisdomugo'
+      },
     ]
   }
 
